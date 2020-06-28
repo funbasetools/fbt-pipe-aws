@@ -6,7 +6,7 @@
 
     <groupId>com.funbasetools</groupId>
     <artifactId>fbt-pipe-aws</artifactId>
-    <version>0.1.3-SNAPSHOT</version>
+    <version>0.1.3</version>
     <packaging>jar</packaging>
     <name>FBT Pipe for AWS</name>
     <description>Pipe library for AWS</description>
