@@ -5,13 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.funbasetools</groupId>
-    <artifactId>fbt-pipeline-aws</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <artifactId>fbt-pipe-aws</artifactId>
+    <version>0.1.3-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>FBT Pipe for AWS</name>
+    <description>Pipe library for AWS</description>
+    <url>https://github.com/funbasetools/fbt-pipe-aws</url>
 
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>https://github.com/funbasetools/fbt-pipeline-aws/blob/master/LICENSE</url>
+            <url>https://github.com/funbasetools/fbt-pipe-aws/blob/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -45,13 +49,13 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/funbasetools/fbt-pipeline-aws/issues</url>
+        <url>https://github.com/funbasetools/fbt-pipe-aws/issues</url>
     </issueManagement>
     <inceptionYear>2020</inceptionYear>
     <scm>
-        <connection>scm:git:https://github.com/funbasetools/fbt-pipeline-aws.git</connection>
-        <developerConnection>scm:git:git@github.com:funbasetools/fbt-pipeline-aws.git</developerConnection>
-        <url>https://github.com/funbasetools/fbt-pipeline-aws</url>
+        <connection>scm:git:https://github.com/funbasetools/fbt-pipe-aws.git</connection>
+        <developerConnection>scm:git:git@github.com:funbasetools/fbt-pipe-aws.git</developerConnection>
+        <url>https://github.com/funbasetools/fbt-pipe-aws</url>
     </scm>
 
     <dependencies>
@@ -59,7 +63,24 @@
         <dependency>
             <groupId>com.funbasetools</groupId>
             <artifactId>fbt-core-java</artifactId>
-            <version>0.1.1</version>
+            <version>0.1.3</version>
+        </dependency>
+
+        <!-- AWS -->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-s3</artifactId>
+            <version>1.11.160</version>
+        </dependency>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-sns</artifactId>
+            <version>1.11.160</version>
+        </dependency>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-sqs</artifactId>
+            <version>1.11.160</version>
         </dependency>
 
         <!-- Apache -->
