@@ -42,7 +42,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <commons.langs3.version>3.9</commons.langs3.version>
-        <commons.io.version>1.3.2</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
         <mockito.version>3.1.0</mockito.version>
         <junit.version>4.13.1</junit.version>
     </properties>
